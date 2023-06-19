@@ -17,7 +17,6 @@ body {
     display: flex;
     justify-content: space-between;
     width: 250px;
-
 }
 
 .container {
@@ -31,4 +30,24 @@ body {
 
 .container>header {
     padding: 10px;
+}
+
+.header_left>div {
+    margin: 5px;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+}
+
+.player_health {
+    display: flex;
+}
+
+.player_health>.players_health_details {
+    border: 1px solid grey;
+    width: 14%;
+    margin: 3px;
+    height: 100px;
 }
