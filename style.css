@@ -50,4 +50,28 @@ body {
     width: 14%;
     margin: 3px;
     height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.max_width_40_percent {
+    max-width: 40%;
+    border-radius: 10px;
+}
+
+.players_health_details>span {
+    margin: 2px;
+
+}
+
+.joining_criteria {
+    display: flex;
+
+}
+
+.joining_criteria>div {
+    width: 45%;
 }
