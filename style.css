@@ -1,0 +1,34 @@
+body {
+    padding: 10px;
+    background-color: rgb(16, 16, 69);
+}
+
+* {
+    color: white;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bets_mode {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+
+}
+
+.container {
+    border: 1px solid #d7b0b0;
+    height: 100vh;
+}
+
+.container>section {
+    padding: 10px;
+}
+
+.container>header {
+    padding: 10px;
+}
