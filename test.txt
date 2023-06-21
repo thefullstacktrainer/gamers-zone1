@@ -19,6 +19,17 @@
 }
 
 
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: var(--2xs);
+    padding: var(--sm) var(--base);
+    border-radius: var(--lg);
+    background: var(--primary-light-cast);
+}
+
+
 :root {
     --primary: #45318C;
     --primary-light: #8F78DD;
