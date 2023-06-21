@@ -29,6 +29,20 @@
     background: var(--primary-light-cast);
 }
 
+.search__icon {
+    color: var(--primary-light);
+}
+
+.search__input {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: var(--lg);
+}
+
+.search__input::placeholder {
+    color: var(--primary-light);
+}
 
 :root {
     --primary: #45318C;
